@@ -226,27 +226,6 @@ GET /secret/meaning
 GET /secret/future
 `
 
-🎯 Приклади використання в React Native
-
-`javascript
-// Отримати пророцтво
-const getPrediction = async (name) => {
-  const response = await fetch(${APIURL}/predict?name=${name});
-  return response.json();
-};
-
-// Отримати повну карту долі
-const getDestiny = async (name) => {
-  const response = await fetch(${APIURL}/destiny/${name});
-  return response.json();
-};
-
-// Отримати щасливі числа
-const getLuckyNumbers = async () => {
-  const response = await fetch(${API_URL}/lucky-numbers);
-  return response.json();
-};
-`
 
 🛠 Технології
 • Node.js + Express — сервер
